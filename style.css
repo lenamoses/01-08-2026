@@ -8,7 +8,7 @@
 
 /* Hintergrundbild auf alle Seiten */
 body {
-    background-image: url('hintergrund.jpg');
+    background-image: url('Wedding_1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -64,5 +64,6 @@ p {
     color: var(--waldgruen);
     font-size: 1.1em;
 }
+
 
 
