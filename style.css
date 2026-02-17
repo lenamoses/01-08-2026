@@ -1,14 +1,65 @@
+/* Farben */
+:root {
+    --sage: #a8e6a1;        /* hellgrün ("sage") */
+    --waldgruen: #145a32;   /* dunkelgrün ("waldgrün") */
+    --beige: #f5f5dc;
+}
+
+/* Hintergrundbild auf alle Seiten */
 body {
-    background-color: #f9f9f9;
+    background-image: url('hintergrund.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
     font-family: Arial, sans-serif;
-    color: #333;
-    margin: 40px;
+    color: var(--waldgruen);
+}
+
+/* Navigationsleiste oben */
+nav {
+    background-color: var(--beige);
+    width: 100%;
+    padding: 16px 0;
+    box-shadow: 0 2px 8px rgba(100,100,60,0.07);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 32px;
+}
+
+nav a {
+    color: var(--waldgruen);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: var(--sage);
 }
 
 h1 {
-    color: #005a9c;
+    color: var(--sage);
+}
+
+main {
+    padding: 48px;
+    background: rgba(255,255,255,0.79);
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 64px auto;
+    box-shadow: 0 2px 8px rgba(100,100,60,0.061);
 }
 
 p {
+    color: var(--waldgruen);
     font-size: 1.1em;
 }
