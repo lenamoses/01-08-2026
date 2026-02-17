@@ -1,8 +1,9 @@
 /* Farben */
 :root {
-    --sage: #a8e6a1;        /* hellgrün ("sage") */
-    --waldgruen: #145a32;   /* dunkelgrün ("waldgrün") */
-    --beige: #f5f5dc;
+    --sage: #C9E9D2;
+    --waldgruen: #6A9C89;
+    --beige: #FEF9F2;
+    --rosa: #FFE3E3
 }
 
 /* Hintergrundbild auf alle Seiten */
@@ -63,3 +64,4 @@ p {
     color: var(--waldgruen);
     font-size: 1.1em;
 }
+
