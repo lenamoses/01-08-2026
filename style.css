@@ -1,14 +1,14 @@
 /* Farben */
 :root {
-    --sage: #C9E9D2;
-    --waldgruen: #6A9C89;
-    --beige: #FEF9F2;
-    --rosa: #FFE3E3
+    --barun: #69622c;
+    --waldgruen: #697b43;
+    --beige: #f6f4f0;
+    --schwarz: #000000
 }
 
 /* Hintergrundbild auf alle Seiten */
 body {
-    background-image: url('Wedding_1.JPG');
+    background-image: url('Hintergrund_Einladung.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
