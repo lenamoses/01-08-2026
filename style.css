@@ -71,14 +71,9 @@ b {
     font-size: 1.1em;
 }
 
-@font-faces {
-    font-family: "Signature";
-    scr: url("Signature.otf");
-}
-
 sig {
     color: var(--waldgruen);
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-family: "Great Vibes", cursive;
 }
