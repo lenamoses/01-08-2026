@@ -12,17 +12,17 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    <!-- background-attachment: fixed; -->
     min-height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
     color: var(--waldgruen);
 }
 
-@media {max-width: 768px){
-    body{
-        background-image: url('Hintergrund_Einladung.jpg');
-       }
+/* Mobile Anpassung */
+@media (max-width: 768px) {
+    body {
+        background-position: top center;
+    }
 }
 
 /* Navigationsleiste oben */
