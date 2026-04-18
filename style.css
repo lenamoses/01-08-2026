@@ -68,10 +68,17 @@ p {
 b {
     color: var(--waldgruen);
     font-weight: bold;
-    font-family: Arial;
     font-size: 1.1em;
 }
 
+@font-faces {
+    font-family: "Signature";
+    scr: url("Signature.otf");
+}
 
-
-
+sig {
+    color: var(--waldgruen);
+    font-weight: bold;
+    font-size: 2.2em;
+    font-family: "Signature", cursive;
+}
