@@ -2,6 +2,7 @@
 :root {
     --barun: #69622c;
     --waldgruen: #697b43;
+    --hellgruen: #dbe6cf;
     --beige: #f6f4f0;
     --schwarz: #000000
 }
@@ -60,7 +61,7 @@ h1 {
 
 main {
     padding: 48px;
-    background: rgba(255,255,255,0.79);
+    background: var(--hellgruen);
     border-radius: 12px;
     max-width: 600px;
     margin: 64px auto;
