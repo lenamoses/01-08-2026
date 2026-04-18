@@ -84,3 +84,12 @@ sig {
     font-size: 1.3em;
     font-family: "Great Vibes", cursive;
 }
+
+.link-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: waldgruen;
+    color: beige;
+    text-decoration: none;
+    border-radius: 6px;
+}
