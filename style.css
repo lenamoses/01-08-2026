@@ -19,6 +19,12 @@ body {
     color: var(--waldgruen);
 }
 
+@media {max-width: 760px){
+    body{
+        background-position: top;
+       }
+}
+
 /* Navigationsleiste oben */
 nav {
     background-color: var(--beige);
