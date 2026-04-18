@@ -19,9 +19,9 @@ body {
     color: var(--waldgruen);
 }
 
-@media {max-width: 760px){
+@media {max-width: 768px){
     body{
-        background-position: top;
+        background-image: url('Hintergrund_Einladung.jpg');
        }
 }
 
