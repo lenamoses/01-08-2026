@@ -44,11 +44,11 @@ nav a {
 }
 
 nav a:hover {
-    color: var(--sage);
+    color: var(--barun);
 }
 
 h1 {
-    color: var(--sage);
+    color: var(--barun);
 }
 
 main {
