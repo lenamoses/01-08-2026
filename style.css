@@ -65,6 +65,13 @@ p {
     font-size: 1.1em;
 }
 
+b {
+    color: var(--waldgruen);
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 1.1em;
+}
+
 
 
 
