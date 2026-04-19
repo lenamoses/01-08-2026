@@ -91,6 +91,7 @@ sig {
   color: var(--waldgruen);
 }
 
-body ul.wedding-list li {
+.wedding-list li,
+.wedding-list li * {
   color: var(--waldgruen) !important;
 }
