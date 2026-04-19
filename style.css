@@ -82,34 +82,6 @@ b {
 sig {
     color: var(--waldgruen);
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-family: "Great Vibes", cursive;
-}
-
-.link-button {
-    display: inline-block;
-    padding: 10px 15px;
-    background-color: waldgruen;
-    color: beige;
-    text-decoration: none;
-    border-radius: 6px;
-}
-
-.floral-frame {
-  padding: 10px;
-  border-radius: 30px;
-  background: linear-gradient(135deg, #fcefee, #e8f5e9);
-  display: inline-block;
-}
-
-.blob-img {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 60% 40% 55% 45% / 60% 30% 70% 40%;
-}
-
-.floral-frame img {
-  border-radius: 20px;
-  display: block;
 }
