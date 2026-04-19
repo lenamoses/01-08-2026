@@ -87,6 +87,6 @@ sig {
     font-family: "Great Vibes", cursive;
 }
 
-li::marker {
+.wedding-list li::marker {
   color: var(--waldgruen);
 }
