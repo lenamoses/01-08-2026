@@ -102,6 +102,13 @@ sig {
   display: inline-block;
 }
 
+.blob-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 60% 40% 55% 45% / 60% 30% 70% 40%;
+}
+
 .floral-frame img {
   border-radius: 20px;
   display: block;
