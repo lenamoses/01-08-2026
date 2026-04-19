@@ -90,3 +90,7 @@ sig {
 .wedding-list li::marker {
   color: var(--waldgruen);
 }
+
+.wedding-list li {
+  color: var(--waldgruen);
+}
