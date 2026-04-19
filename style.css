@@ -94,3 +94,15 @@ sig {
     text-decoration: none;
     border-radius: 6px;
 }
+
+.floral-frame {
+  padding: 10px;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #fcefee, #e8f5e9);
+  display: inline-block;
+}
+
+.floral-frame img {
+  border-radius: 20px;
+  display: block;
+}
