@@ -92,5 +92,5 @@ sig {
 }
 
 body ul.wedding-list li {
-  color: var(--waldgruen);
+  color: var(--waldgruen) !important;
 }
